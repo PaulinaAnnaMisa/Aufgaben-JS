@@ -10,7 +10,7 @@ function coinFlip() {
   }
 }
 
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", () => { //brauchst du hier nicht
     
   button.addEventListener("click", function () {
     let ergebnis = coinFlip();
@@ -18,3 +18,5 @@ document.addEventListener("DOMContentLoaded", () => {
     result.textContent = ergebnis;
   });
 });
+
+//passt!
