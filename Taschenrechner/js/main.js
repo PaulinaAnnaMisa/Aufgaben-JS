@@ -11,6 +11,7 @@ function summe(a,b) {
 
 // calculate
 
+//auch keine Überprüfung ob die felder leer sind, rest sehr sehr gut gelöst!
 button.addEventListener("click", function (){   
 
     let ergebnis = summe(Number(input1.value), Number(input2.value));
