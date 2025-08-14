@@ -19,9 +19,11 @@ let arrQuote = [
   "„Glaube an dich – weil ich es tue.“",
 ];
 
+//funktioniert sehr gut!
 document.addEventListener("DOMContentLoaded", () => {
   button.addEventListener("click", function () {
     let randomQuote = Math.floor(Math.random() * arrQuote.length);
+    //alternativ quote.textContent = array[Math.floor(Math.random() * array.length)];
     quote.textContent = arrQuote[randomQuote];
   });
 });
